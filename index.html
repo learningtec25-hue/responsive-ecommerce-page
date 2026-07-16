@@ -3,80 +3,150 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Elevate Market — Modern eCommerce Experience</title>
+    <title>Sanctum Furnishings — Furniture for Living Well</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="nav">
-        <div class="logo">Elevate<span>Market</span></div>
+        <div class="logo">Sanctum<span>Furnishings</span></div>
         <div class="nav-links">
           <a href="#collections" class="nav-link">Collections</a>
-          <a href="#services" class="nav-link">Why Shop</a>
-          <a href="#testimonials" class="nav-link">Reviews</a>
+          <a href="#products" class="nav-link">Trending</a>
+          <a href="#services" class="nav-link">Services</a>
           <button class="nav-cta">Shop Now</button>
         </div>
       </nav>
       <div class="hero">
         <div class="hero-content">
-          <p class="eyebrow">New arrivals · 2026 summer drop</p>
-          <h1>Curated goods for modern living.</h1>
+          <p class="eyebrow">Signature furniture · 2026 edit</p>
+          <h1>Handcrafted furniture built for intentional homes.</h1>
           <p>
-            Discover the season’s highlights with thoughtful curation, ethical sourcing, and fast
-            delivery. Browse minimalist classics, bold statement pieces, and essentials built to
-            last.
+            Elevate every room with curated pieces inspired by warm natural materials, artisanal
+            craftsmanship, and timeless silhouettes. Shop limited drops refreshed each season.
           </p>
           <div class="hero-actions">
-            <button class="primary">Explore Collection</button>
-            <button class="secondary">See Best Sellers</button>
+            <button class="primary">Browse Collections</button>
+            <button class="secondary">View Lookbook</button>
           </div>
         </div>
         <div class="hero-panel">
-          <p class="panel-label">Limited drops</p>
-          <p class="panel-title">Artisan tote bundle</p>
-          <p class="panel-text">Hand-stitched leather, modular interior, free personalization.</p>
-          <div class="panel-cta">Shop artisan</div>
+          <p class="panel-label">New Arrival</p>
+          <p class="panel-title">Florence Curved Sofa</p>
+          <p class="panel-text">Cloud-soft boucle paired with solid walnut trim for lounge-ready comfort.</p>
+          <div class="panel-cta">Reserve a sample</div>
+        </div>
+      </div>
+      <div class="assurance-strip" aria-label="Customer promises">
+        <div>
+          <h4>White-glove delivery</h4>
+          <p>Protected doorstep setup and debris removal.</p>
+        </div>
+        <div>
+          <h4>Design concierge</h4>
+          <p>Complimentary styling guides and layout reviews.</p>
+        </div>
+        <div>
+          <h4>Care for life</h4>
+          <p>Lifetime repair tips and sustainable packaging return.</p>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="collections" class="section">
+      <section id="collections" class="section collections">
         <div class="section-heading">
-          <p class="eyebrow">Featured products</p>
-          <h2>Seasonal picks for every room.</h2>
+          <p class="eyebrow">Featured collections</p>
+          <h2>Spaces curated for calm, work, and celebration.</h2>
+        </div>
+        <div class="collection-grid">
+          <article class="collection-card">
+            <h3>Living Room</h3>
+            <p>Gather in lounge-ready layers and sculpted seating.</p>
+            <span class="tag">Upholstery</span>
+          </article>
+          <article class="collection-card">
+            <h3>Workspace</h3>
+            <p>Precision desks, storage, and acoustic panels that inspire focus.</p>
+            <span class="tag">Work & Study</span>
+          </article>
+          <article class="collection-card">
+            <h3>Outdoor</h3>
+            <p>Weather-ready seating with tactile teak, aluminum, and rope.</p>
+            <span class="tag">Patio</span>
+          </article>
+          <article class="collection-card">
+            <h3>Bedroom</h3>
+            <p>Relaxed linens, low-profile frames, and handcrafted nightstands.</p>
+            <span class="tag">Sleep</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="products" class="section trending-products">
+        <div class="section-heading">
+          <p class="eyebrow">Trending products</p>
+          <h2>Six curated pieces ready to anchor your next space.</h2>
         </div>
         <div class="product-grid">
           <article class="product-card">
-            <div class="image-placeholder"></div>
-            <div>
-              <p class="product-category">Home Essentials</p>
-              <h3>Organic cotton throw</h3>
-              <p class="product-price">$95</p>
+            <div class="product-image" aria-hidden="true"></div>
+            <div class="product-details">
+              <p class="product-category">Living Room</p>
+              <h3>Solstice Modular Sofa</h3>
+              <p class="product-description">Cloud-soft seating in removable boucle with walnut base.</p>
+              <p class="product-price">$3,450</p>
+              <button class="product-cta">Add to cart</button>
             </div>
           </article>
           <article class="product-card">
-            <div class="image-placeholder"></div>
-            <div>
-              <p class="product-category">Outdoor Living</p>
-              <h3>Convertible picnic set</h3>
-              <p class="product-price">$140</p>
+            <div class="product-image"></div>
+            <div class="product-details">
+              <p class="product-category">Dining</p>
+              <h3>Hearthstone Dining Table</h3>
+              <p class="product-description">Hand-planed oak top paired with powder-coated steel legs.</p>
+              <p class="product-price">$1,890</p>
+              <button class="product-cta">Add to cart</button>
             </div>
           </article>
           <article class="product-card">
-            <div class="image-placeholder"></div>
-            <div>
-              <p class="product-category">Studio Gear</p>
-              <h3>Minimalist lamp trio</h3>
-              <p class="product-price">$120</p>
+            <div class="product-image"></div>
+            <div class="product-details">
+              <p class="product-category">Bedroom</p>
+              <h3>Aster Platform Bed</h3>
+              <p class="product-description">Low-profile ash frame with integrated nightstand lighting.</p>
+              <p class="product-price">$2,120</p>
+              <button class="product-cta">Add to cart</button>
             </div>
           </article>
           <article class="product-card">
-            <div class="image-placeholder"></div>
-            <div>
-              <p class="product-category">Wellness</p>
-              <h3>Cold-pressed travel kit</h3>
-              <p class="product-price">$68</p>
+            <div class="product-image"></div>
+            <div class="product-details">
+              <p class="product-category">Workspace</p>
+              <h3>Lumen Standing Desk</h3>
+              <p class="product-description">Curved desktop with drawer sleigh and adjustable heights.</p>
+              <p class="product-price">$1,540</p>
+              <button class="product-cta">Add to cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"></div>
+            <div class="product-details">
+              <p class="product-category">Outdoor</p>
+              <h3>Terracotta Lounge Set</h3>
+              <p class="product-description">Modular seating wrapped in quick-dry rope and marine foam.</p>
+              <p class="product-price">$1,780</p>
+              <button class="product-cta">Add to cart</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"></div>
+            <div class="product-details">
+              <p class="product-category">Accent</p>
+              <h3>Atlas Floor Lamp</h3>
+              <p class="product-description">Brushed bronze arc with dimmable LED and walnut counterweight.</p>
+              <p class="product-price">$620</p>
+              <button class="product-cta">Add to cart</button>
             </div>
           </article>
         </div>
@@ -84,69 +154,69 @@
 
       <section id="services" class="section services">
         <div class="section-heading">
-          <p class="eyebrow">Why shop with us</p>
-          <h2>Thoughtful service, transparent sourcing.</h2>
+          <p class="eyebrow">Our service promise</p>
+          <h2>From design concierge to white-glove delivery.</h2>
         </div>
         <div class="service-grid">
           <article>
-            <h3>Global artisans</h3>
-            <p>Partnering with independent makers who work with regenerative materials and fair wages.</p>
+            <h3>Interior styling calls</h3>
+            <p>One-on-one consultations to help you curate furniture, materials, and layout plans.</p>
           </article>
           <article>
-            <h3>Fast delivery</h3>
-            <p>Same-day fulfillment in major cities and carbon-neutral shipping across continents.</p>
+            <h3>White-glove delivery</h3>
+            <p>Full assembly, careful placement, and clean-up so your new room feels ready to live in.</p>
           </article>
           <article>
-            <h3>Care made easy</h3>
-            <p>Lifetime repair guides, recyclable packaging, and complimentary returns within 60 days.</p>
+            <h3>Sustainable care</h3>
+            <p>Recyclable packaging return, repair guides, and lifetime finishing support.</p>
           </article>
         </div>
       </section>
 
-      <section class="section testimonials" id="testimonials">
+      <section class="section testimonials">
         <div class="section-heading">
-          <p class="eyebrow">Real feedback</p>
-          <h2>Stories from the community.</h2>
+          <p class="eyebrow">Client stories</p>
+          <h2>Designs that still feel effortless months later.</h2>
         </div>
         <div class="testimonial-grid">
           <article>
             <p>
-              “The quality of every item feels timeless. I love supporting small studios and the
-              packaging felt like an experience in itself.”
+              “Every piece feels bespoke. The team helped me mix vintage finds with their furniture so
+              it still felt grounding and intentional.”
             </p>
-            <p class="author">— Amina, Brooklyn</p>
+            <p class="author">— Noor, San Francisco</p>
           </article>
           <article>
             <p>
-              “Customer care was so responsive. They helped me match a dining set to my home palette and
-              suggested complementary pieces.”
+              “Shipping arrived ahead of schedule, the installers were thoughtful, and the desk I ordered
+              makes the entire room feel calm.”
             </p>
-            <p class="author">— Jonas, Montreal</p>
+            <p class="author">— Mateo, Austin</p>
           </article>
           <article>
             <p>
-              “The hero collection bundle arrived within two days and the craftsmanship was even better in
-              person. Definitely coming back for more.”
+              “I love how easy it was to try different fabrics. The concierge team pulled swatches and
+              even shared care instructions for the boucle sofa.”
             </p>
-            <p class="author">— Priya, Singapore</p>
+            <p class="author">— Lila, Portland</p>
           </article>
         </div>
       </section>
 
       <section class="section cta">
         <div>
-          <p class="eyebrow">Ready to elevate?</p>
-          <h2>Join the waitlist for exclusive drops.</h2>
+          <p class="eyebrow">Ready to reshape your home?</p>
+          <h2>Book a virtual design consult for a complimentary room plan.</h2>
         </div>
         <form class="cta-form">
           <input type="email" placeholder="Email address" aria-label="Email address" required />
-          <button type="submit" class="primary">Join the list</button>
+          <button type="submit" class="primary">Book consultation</button>
         </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 Elevate Market. Curated goods, thoughtfully delivered.</p>
+      <p>© 2026 Sanctum Furnishings. Crafted sustainably, delivered thoughtfully.</p>
       <div class="footer-links">
         <a href="#">Privacy</a>
         <a href="#">Shipping</a>
